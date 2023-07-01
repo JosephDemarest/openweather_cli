@@ -27,7 +27,7 @@ pip install openweather-cli
 Once installed, you can run the application with:
 
 ```bash
-weather_cli
+openweather-cli
 ```
 
 ### 2. From Source (GitHub)
@@ -35,8 +35,8 @@ weather_cli
 First, clone the repository:
 
 ```bash
-git clone https://github.com/username/openweather_cli.git
-cd openweather_cli
+git clone https://github.com/username/openweather-cli.git
+cd openweather-cli
 ```
 
 Then, install the required dependencies:
@@ -48,7 +48,7 @@ pip install -r requirements.txt
 Run the application with:
 
 ```bash
-python -m weather_cli.main
+python -m openweather-cli.main
 ```
 
 ## Configuration
