@@ -1,0 +1,11 @@
+{
+    "api_key": "xxxx",
+    "location": "xxxx",
+    "output_format": "single_line",
+    "temperature_unit": "celsius",
+    "print_options": ["temperature", "description"],
+    "enable_labels": false,
+    "separation_width": 5,
+    "pre_text": "[",
+    "post_text": "]"
+}
