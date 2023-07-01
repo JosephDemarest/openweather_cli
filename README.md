@@ -1,8 +1,7 @@
+
 ---
 
 # OpenWeather CLI
-
-Quick CLI application I made to interface with the openweather API for use in waybar.
 Weather CLI is a simple command line application that fetches and displays weather data. It uses the OpenWeatherMap API and can be customized via a configuration file. 
 
 ## Features
@@ -21,13 +20,13 @@ There are two ways to install OpenWeather CLI:
 You can install OpenWeather CLI from PyPi using pip:
 
 ```bash
-pip install openweather-cli
+pip install openweather_cli
 ```
 
 Once installed, you can run the application with:
 
 ```bash
-openweather-cli
+openweather_cli
 ```
 
 ### 2. From Source (GitHub)
@@ -35,8 +34,8 @@ openweather-cli
 First, clone the repository:
 
 ```bash
-git clone https://github.com/username/openweather-cli.git
-cd openweather-cli
+git clone https://github.com/username/openweather_cli.git
+cd openweather_cli
 ```
 
 Then, install the required dependencies:
@@ -48,7 +47,7 @@ pip install -r requirements.txt
 Run the application with:
 
 ```bash
-python -m openweather-cli.main
+python -m openweather_cli.main
 ```
 
 ## Configuration
